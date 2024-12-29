@@ -147,7 +147,7 @@ Permission is hereby granted, free of charge...
 ---
 
 <p align="center">
-Made with 💖 and ☕ by <a href="https://github.com/ayanmalik">Ayan Malik</a>
+Made with 💖 and ☕ by <a href="https://github.com/malik0011">Ayan Malik</a>
 </p>
 
 ---
