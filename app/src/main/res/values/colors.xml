@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#F8F9FA</color>
+    <color name="colorPrimary">#5C6BC0</color>
+    <color name="colorPrimaryDark">#3949AB</color>
+    <color name="colorAccent">#26A69A</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="textColor">#37474F</color>
+    <color name="textSecondary">#78909C</color>
+    <color name="progressBarCalories">#66BB6A</color>
+    <color name="progressBarProtein">#42A5F5</color>
+    <color name="progressBarSugar">#FFA726</color>
+    <color name="splashBackground">#5C6BC0</color>
 </resources>

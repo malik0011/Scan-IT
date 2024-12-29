@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.ScanIt" parent="Base.Theme.ScanIt" />
+
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splashBackground</item>
+        <item name="android:statusBarColor">@color/splashBackground</item>
+        <item name="android:navigationBarColor">@color/splashBackground</item>
+    </style>
 </resources>

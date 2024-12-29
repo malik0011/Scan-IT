@@ -18,9 +18,12 @@ class ScannerActivity : AppCompatActivity() {
 //        productDao = db.productDao()
 
         findViewById<Button>(R.id.scan_button).setOnClickListener {
-            // Start scanning activity
+            // Start scanning activity with auto-focus enabled
             val intent = IntentIntegrator(this)
             intent.setOrientationLocked(false)
+            intent.setBeepEnabled(true) // Optional: Enable beep sound on scan
+            intent.setPrompt("Place a barcode inside the rectangle to scan it") // Optional: Set prompt message
+            intent.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES) // Set desired barcode formats
             intent.initiateScan()
         }
     }
